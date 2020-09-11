@@ -9,5 +9,12 @@ In the project directory, you can run:
 ### Projeyi çalıştırmak proje dizininde yukarıdaki komutu kullanabilirsiniz.
 
 Kullanılan Paketler
+- redux
+- react-redux
+- redux-thunk
+- bootstrap
+- reactstrap
+- react-router-dom
+terminal proje dizininde npm install (paket adı) komutu kullanılarak paket indirilebilir.
 
 
