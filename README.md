@@ -6,6 +6,6 @@ In the project directory, you can run:
 
 ### `npm start`
 
-**NOTE: Projeyi çalıştırmak proje dizininde yukarıdaki komutu kullanabilirsiniz.
+# Projeyi çalıştırmak proje dizininde yukarıdaki komutu kullanabilirsiniz.
 
 
