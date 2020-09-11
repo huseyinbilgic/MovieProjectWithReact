@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Col, Row } from "reactstrap";
-import { bindActionCreators } from "redux";
+
 import Filter from "../filter/Filter";
 
 import MovieList from "../movies/MovieList";
@@ -12,10 +12,10 @@ class Main extends Component {
     return (
       <div>
         <Row>
-          <Col xs="3">
+          <Col md="3">
             <Filter></Filter>
           </Col>
-          <Col xs="9">
+          <Col md="9">
             <MovieList></MovieList>
           </Col>
         </Row>

@@ -4,6 +4,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { Table } from "reactstrap";
 import { Link } from "react-router-dom";
+import "../../style.scss"
 
 class MovieList extends Component {
   componentDidMount() {
@@ -30,12 +31,15 @@ class MovieList extends Component {
      }
      return render1
   }
+  a=(event)=>{
+    event.preventDefault()
+  }
   render() {
     
     return (
-      <div>
-        <h3>Film</h3>
-        <Table striped>
+      <div className="mainmovie">
+        <h3>Film/Dizi</h3>
+        <Table className="movieTable" dark>
           <thead>
             <tr>
               <th>Movie Name</th>
@@ -61,20 +65,20 @@ class MovieList extends Component {
         <nav aria-label="...">
           <ul className="pagination">
             <li onClick={this.azalt}  className="page-item">
-              <a className="page-link">
+              <a href="" onClick={this.a}  className="page-link">
                 Previous
               </a>
             </li>
            
             <li className="page-item">
-              <a className="page-link" >
+              <a href="" onClick={this.a}  className="page-link" >
                 {this.props.pageNumber}
               </a>
             </li>
             
            
             <li onClick={this.artır}  className="page-item">
-              <a className="page-link">
+              <a href="" onClick={this.a} className="page-link">
                 Next
               </a>
             </li>
