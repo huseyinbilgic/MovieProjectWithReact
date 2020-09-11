@@ -15,6 +15,6 @@ Kullanılan Paketler
 - bootstrap
 - reactstrap
 - react-router-dom
-terminal proje dizininde npm install (paket adı) komutu kullanılarak paket indirilebilir.
+terminal proje dizininde npm install -g (paket adı) komutu kullanılarak paket indirilebilir.
 
 
